@@ -363,7 +363,7 @@ class QAGenerator:
         prompt = f"""
         Create {num_cards} flashcards based on the following text. Each flashcard should:
         1. Focus on a key concept, definition, or important fact
-        2. Have a clear front (question/prompt) and back (answer/explanation)
+        2. Have a clear front (concept/topic) and back (answer/explanation)
         3. Be concise but comprehensive
         
         Prioritize the most important information from the text.
